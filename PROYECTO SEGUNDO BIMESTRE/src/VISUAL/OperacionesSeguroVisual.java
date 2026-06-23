@@ -38,7 +38,7 @@ public class OperacionesSeguroVisual {
             for (Paciente p : listaPacientes) {
                 if (p.getNombreCompleto().equalsIgnoreCase(nombre)) {
                     paciente = p;
-                    break; // Lo encontró, rompe el ciclo
+                    break;
                 }
             }
         }
@@ -51,7 +51,7 @@ public class OperacionesSeguroVisual {
             for (Medico m : listaMedicos) {
                 if (m.getNombreCompleto().equalsIgnoreCase(nombre)) {
                     medico = m;
-                    break; // Lo encontró, rompe el ciclo
+                    break;
                 }
             }
         }
